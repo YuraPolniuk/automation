@@ -1,0 +1,13 @@
+{
+  "name": "bdd-pom-ui-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js --import steps/sauce.steps.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "chai": "^5.0.0",
+    "playwright": "^1.40.0"
+  }
+}

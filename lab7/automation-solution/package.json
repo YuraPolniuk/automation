@@ -1,0 +1,23 @@
+{
+  "name": "automation-solution",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:unit": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/unit",
+    "test:api": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/api",
+    "test:ui": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/ui",
+    "test:e2e": "node --experimental-vm-modules node_modules/jest/bin/jest.js tests/e2e"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "puppeteer": "^22.0.0"
+  },
+  "dependencies": {
+    "@jest/globals": "^29.0.0",
+    "axios": "^1.0.0"
+  }
+}
